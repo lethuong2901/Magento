@@ -1,0 +1,1 @@
+{"uuid":"0c626cc6-237a-458c-bdd9-333be1196425","name":"User.Login","children":["678951d0-08e3-408d-82eb-23316cd99fea"],"befores":[{"name":"BeforeClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1727715877302,"stop":1727715889281}],"afters":[],"start":1727715877248,"stop":1727715892093}
