@@ -1,7 +1,7 @@
 package commons;
 
 
-import PageObjects.*;
+import PageObjects.User.*;
 import org.openqa.selenium.WebDriver;
 
 public class PageGenerator {
@@ -27,4 +27,9 @@ public class PageGenerator {
     public static CartPageObject getCartPage(WebDriver driver) {
         return new CartPageObject(driver);
     }
+
+    public static PageObjects.Admin.LoginPageObject getLoginPageAdmin(WebDriver driver) {
+        return new PageObjects.Admin.LoginPageObject(driver);
+    }
+
 }

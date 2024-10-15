@@ -1,4 +1,4 @@
-package PageUIs;
+package PageUIs.User;
 
 public class ProductPageUIs {
 

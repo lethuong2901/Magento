@@ -1,7 +1,7 @@
-package PageObjects;
+package PageObjects.User;
 
 
-import PageUIs.HomePageUIs;
+import PageUIs.User.HomePageUIs;
 import commons.BasePage;
 import org.openqa.selenium.WebDriver;
 

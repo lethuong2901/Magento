@@ -1,4 +1,4 @@
-package PageUIs;
+package PageUIs.User;
 
 public class LoginPageUIs {
 public static final String EMAIL_TEXTBOX ="xpath=//input[@id='email']";

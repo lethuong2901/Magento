@@ -1,9 +1,8 @@
-package PageObjects;
+package PageObjects.User;
 
-import PageUIs.MyAccountDashboardPageUI;
+import PageUIs.User.MyAccountDashboardPageUI;
 import commons.BasePage;
 import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
 
 public class AccountDashboardPageObject extends
 		BasePage {

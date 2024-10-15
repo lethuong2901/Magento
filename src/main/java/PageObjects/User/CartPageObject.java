@@ -1,11 +1,9 @@
-package PageObjects;
+package PageObjects.User;
 
 
 
-import PageUIs.CartPageUIs;
-import PageUIs.RegisterPageUIs;
+import PageUIs.User.CartPageUIs;
 import commons.BasePage;
-import commons.PageGenerator;
 import org.openqa.selenium.WebDriver;
 
 public class CartPageObject extends
