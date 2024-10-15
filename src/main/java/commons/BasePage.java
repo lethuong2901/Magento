@@ -1,8 +1,7 @@
 package commons;
 
 
-import PageUIs.HomePageUIs;
-import PageUIs.RegisterPageUIs;
+import PageUIs.User.HomePageUIs;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.Color;

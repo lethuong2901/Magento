@@ -1,9 +1,9 @@
 package User;
 
 
-import PageObjects.AccountDashboardPageObject;
-import PageObjects.HomePageObject;
-import PageObjects.RegisterPageObject;
+import PageObjects.User.AccountDashboardPageObject;
+import PageObjects.User.HomePageObject;
+import PageObjects.User.RegisterPageObject;
 import commons.BaseTest;
 
 

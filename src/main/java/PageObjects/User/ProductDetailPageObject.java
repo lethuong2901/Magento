@@ -1,8 +1,6 @@
-package PageObjects;
-import PageUIs.ProductDetailPageUIs;
-import PageUIs.RegisterPageUIs;
+package PageObjects.User;
+import PageUIs.User.ProductDetailPageUIs;
 import commons.BasePage;
-import commons.PageGenerator;
 import org.openqa.selenium.WebDriver;
 
 public class ProductDetailPageObject extends

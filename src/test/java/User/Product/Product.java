@@ -1,12 +1,12 @@
 package User.Product;
-import PageObjects.*;
+import PageObjects.User.HomePageObject;
+import PageObjects.User.ProductDetailPageObject;
+import PageObjects.User.ProductPageObject;
 import commons.BaseTest;
 
 import static org.testng.Assert.assertEquals;
 
 import commons.PageGenerator;
-import commons.Utils.DataMapper;
-import commons.Utils.ReadExcel;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;

@@ -1,9 +1,10 @@
 package User.ShopingCart;
-import PageObjects.*;
+import PageObjects.User.CartPageObject;
+import PageObjects.User.HomePageObject;
+import PageObjects.User.ProductPageObject;
 import commons.BaseTest;
 import commons.PageGenerator;
 import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;

@@ -1,4 +1,4 @@
-package PageUIs;
+package PageUIs.User;
 
 public class CartPageUIs {
     public static final String DISCOUNT_TEXTBOX ="xpath=//input[@id='coupon_code']" ;

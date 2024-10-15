@@ -1,14 +1,13 @@
 package User;
-import PageObjects.AccountDashboardPageObject;
-import PageObjects.HomePageObject;
-import PageObjects.LoginPageObject;
+import PageObjects.User.AccountDashboardPageObject;
+import PageObjects.User.HomePageObject;
+import PageObjects.User.LoginPageObject;
 import commons.BaseTest;
 
 import static org.testng.Assert.assertEquals;
 
 import commons.PageGenerator;
 import commons.Utils.DataMapper;
-import commons.Utils.ReadExcel;
 import commons.Utils.ReadExelOneRow;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;

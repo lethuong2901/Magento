@@ -1,4 +1,4 @@
-package PageUIs;
+package PageUIs.User;
 
 public class MyAccountDashboardPageUI {
 	public static final String FULLNAME ="xpath=//h3[text()='Contact Information']//parent::div//following-sibling::div//p";

@@ -1,4 +1,4 @@
-package PageUIs;
+package PageUIs.User;
 
 public class HomePageUIs {
     public static final String MENU_LINK = "xpath=//a[text()='%s']";
