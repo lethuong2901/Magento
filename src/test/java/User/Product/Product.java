@@ -34,6 +34,7 @@ public class Product extends BaseTest {
         String priceAtProduct= productPage.getPriceOfProduct("IPhone");
       productDetailPage=productPage.clickToProductName(driver,"IPhone");
       Assert.assertEquals(priceAtProduct,productDetailPage.getPriceOfProduct());
+      //
     }
 
 }
