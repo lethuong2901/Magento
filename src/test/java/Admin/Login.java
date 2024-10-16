@@ -13,22 +13,25 @@ import org.testng.annotations.Test;
 
 public class Login extends BaseTest {
     WebDriver driver;
-private LoginPageObject loginPageObject;
-private String username;
-private String password;
-    @Parameters({"browserName", "url"})
+    private LoginPageObject loginPageObject;
+    private String username;
+    private String password;
+
+    @Parameters({"browserName", "urlAdmin"})
     @BeforeClass
     public void BeforeClass(String browserName, String url) {
         driver = getBrowserDriver(browserName, url);
         username = GlobalConstant.Username_Admin;
-        password= GlobalConstant.Password_Admin;
-        loginPageObject= PageGenerator.getLoginPageAdmin(driver);
+        password = GlobalConstant.Password_Admin;
+        loginPageObject = PageGenerator.getLoginPageAdmin(driver);
     }
 
     @Test
-    public void TC_01_Login_Successfull(){
-loginPageObject.inputToUsername(username);
-loginPageObject.inputToPassword(password);
-loginPageObject.clickToButton();
+    public void TC_01_Login_Successfull() {
+        loginPageObject.inputToUsername(username);
+        loginPageObject.inputToPassword(password);
+        loginPageObject.clickToButton();
+        loginPageObject.clickToCloseButton();
+
     }
 }
