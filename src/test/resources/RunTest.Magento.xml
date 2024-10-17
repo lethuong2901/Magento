@@ -5,7 +5,8 @@
         <parameter name="urlAdmin" value="http://live.techpanda.org/index.php/backendlogin"/>
         <parameter name="browserName" value="chrome"/>
         <classes>
-            <class name="Admin.Login"/>
+<!--            <class name="Admin.Login"/>-->
+            <class name="Admin.CreateAccount"/>
             <!--            <class name="User.Register"/>-->
             <!--            <class name="User.Login"/>-->
             <!--            <class name="User.Product.Product"/>-->

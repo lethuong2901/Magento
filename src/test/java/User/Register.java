@@ -39,7 +39,7 @@ public class Register extends BaseTest {
 		firstName=data_Mapper.getFirstName();
 		lastName=data_Mapper.getLastName();
 		password=data_Mapper.getPassword();
-		emailAdress= getEmailRandom(data_Mapper.getEmail());
+		emailAdress= DataMapper.getUseData().getEmail();
 		confirmPassword=data_Mapper.getPassword();
 		fullname=firstName+" "+lastName;
 		homePage = PageGenerator.getHomePage(driver);

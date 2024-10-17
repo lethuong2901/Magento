@@ -32,4 +32,7 @@ public class PageGenerator {
         return new PageObjects.Admin.LoginPageObject(driver);
     }
 
+    public static PageObjects.Admin.CustomerPageObject getCustomer(WebDriver driver) {
+        return new PageObjects.Admin.CustomerPageObject(driver);
+    }
 }
