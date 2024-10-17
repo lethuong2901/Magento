@@ -39,19 +39,19 @@ public class Login extends BaseTest {
         homePage.clickToAccountLink();
         loginPage = PageGenerator.getLoginPage(driver);
         loginPage.clickToHeader(driver, "Log In");
-        //With Json file
-//        email= dataMapper.getEmail();
-//        password= dataMapper.getPassword();
-//        firstName=dataMapper.getFirstName();
-//        lastName=dataMapper.getLastName();
-//        fullName= firstName+" "+lastName;
-
-        //With Excel file
-        email= readExelOneRow.getCellData("User",1);
-        password= readExelOneRow.getCellData("Password",1);
+       // With Json file
+       email= dataMapper.getEmail();
+        password= dataMapper.getPassword();
         firstName=dataMapper.getFirstName();
         lastName=dataMapper.getLastName();
         fullName= firstName+" "+lastName;
+
+//        //With Excel file
+//        email= readExelOneRow.getCellData("User",1);
+//        password= readExelOneRow.getCellData("Password",1);
+//        firstName=dataMapper.getFirstName();
+//        lastName=dataMapper.getLastName();
+//        fullName= firstName+" "+lastName;
     }
 
    // @Test(dataProvider = "loginData", dataProviderClass = ReadExcel.class)
